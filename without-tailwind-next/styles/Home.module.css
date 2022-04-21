@@ -116,6 +116,7 @@
     color: #6B6463;
     font-weight: 800;
     margin-top: 40px;  
+    margin-bottom: 0px;
 }
 
 [data-theme='dark'] .mainTitle, [data-theme='dark'] .mainSubTitle {
