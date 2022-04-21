@@ -23,12 +23,12 @@ export default function Home() {
           TRNDY
         </div>
         <div className="p-7 xl:p-10">
-          <div class="flex items-center justify-center w-full mb-12">
-            <label for="toggle" class="flex items-center cursor-pointer">
-              <div class="relative">
-                <input type="checkbox" id="toggle" class="sr-only" value={darkMode} onChange={() => setMode(!darkMode)} />
-                <div class="block bg-gray-600 w-14 h-8 rounded-full"></div>
-                <div class="dot absolute left-1 top-1 bg-trndy-secondary dark:bg-trndy-primary w-6 h-6 rounded-full transition"></div>
+          <div className="flex items-center justify-center w-full mb-12">
+            <label htmlFor="toggle" className="flex items-center cursor-pointer">
+              <div className="relative">
+                <input type="checkbox" id="toggle" className="sr-only" value={darkMode} onChange={() => setMode(!darkMode)} />
+                <div className="block bg-gray-600 w-14 h-8 rounded-full"></div>
+                <div className="dot absolute left-1 top-1 bg-trndy-secondary dark:bg-trndy-primary w-6 h-6 rounded-full transition"></div>
               </div>
               <div class="ml-3 text-gray-700 dark:text-trndy-primary font-medium">{!darkMode ? "Light Mode" : "Dark Mode"}</div>
             </label>
