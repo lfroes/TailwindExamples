@@ -1,0 +1,4 @@
+input:checked ~ .dot.dot {
+  transform: translateX(100%) !important;
+  background-color: #FFF;
+}
